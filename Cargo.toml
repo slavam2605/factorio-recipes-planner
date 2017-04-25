@@ -1,0 +1,18 @@
+[package]
+name = "factorio_recipes_planner"
+version = "0.1.0"
+authors = ["Moklev Slava <slavam2605@bk.ru>"]
+
+[[bin]]
+name = "planner"
+path = "src/planner.rs"
+
+[[bin]]
+name = "fetcher"
+path = "src/main.rs"
+
+[dependencies]
+
+[dependencies.nom]
+version = "^2.0"
+features = ["regexp"]
